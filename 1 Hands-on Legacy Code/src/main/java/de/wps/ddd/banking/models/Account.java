@@ -1,7 +1,7 @@
 package de.wps.ddd.banking.models;
 
 public class Account {
-	private float balance;
+	private float balance; // Ouch! No money with float!
 	private int accountNumber;
 	private Customer accountOwner;
 
